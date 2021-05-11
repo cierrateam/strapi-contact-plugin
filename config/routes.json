@@ -1,0 +1,20 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/",
+      "handler": "contact.index",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/send",
+      "handler": "contact.send",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
